@@ -1,0 +1,36 @@
+{
+  "name": "AutoSpecNER",
+  "repository": "https://github.com/FilipposVentirozos/AutoSpecNER",
+  "commit": "fd168bc5baa096beceaf2ec36fbb6b5bc31821d1",
+  "retrieved": "2026-09-17",
+  "license": "CC-BY-4.0",
+  "files": [
+    {
+      "upstreamPath": "vehicle_ner/vehicle_ner.jsonl",
+      "localPath": "vehicle_ner.original.jsonl",
+      "bytes": 2261961,
+      "sha256": "b2dbcf7b0f87cfb87f945fd2830ce95dbe49039065bf1649a3f408897fe5434c",
+      "localOnly": true
+    },
+    {
+      "upstreamPath": "LICENSE",
+      "localPath": "LICENSE.AutoSpecNER",
+      "bytes": 1619,
+      "sha256": "354b67197eb3e560a29eac0e50f50e755721852e39e4fc03e39616a1b1b9e428"
+    },
+    {
+      "upstreamPath": "README.md",
+      "localPath": "README.upstream.md",
+      "bytes": 4020,
+      "sha256": "88f11621a633a24a17987b4d0b92364fefa951618dfcea1ba08e79a6f15f79b5"
+    }
+  ],
+  "expected": {
+    "records": 659,
+    "accepted": 645,
+    "uniqueTextsAll": 643,
+    "uniqueTextsAccepted": 629,
+    "acceptedModelSpans": 1110,
+    "nonBmpDocumentsAll": 5
+  }
+}

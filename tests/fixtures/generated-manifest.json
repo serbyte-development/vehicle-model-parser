@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "generatorVersion": 1,
+  "sourceCommit": "79018e2dbcc03899bf3434d959b445644fb49b76",
+  "seed": 20260917,
+  "sourceRows": 11543,
+  "sourcePairs": 1459,
+  "generatedCases": 98152,
+  "duplicatesRemoved": 14661,
+  "counts": {
+    "source-canonical": 14590,
+    "source-lowercase": 14520,
+    "source-uppercase": 13840,
+    "source-fullwidth": 14590,
+    "embedded-identifiers": 1403,
+    "url-boundaries": 1459,
+    "email-boundaries": 1454,
+    "trailing-make-context": 1459,
+    "structured-form": 1459,
+    "repeated-source-mentions": 1459,
+    "number-noise": 2918,
+    "source-unicode-separators": 8080,
+    "source-multiline-spaces": 7320,
+    "multiple-source-vehicles": 5836,
+    "composed-hard-negatives": 6600,
+    "generated-typo-deletion": 293,
+    "generated-typo-insertion": 294,
+    "generated-typo-substitution": 294,
+    "generated-typo-adjacent-swap": 284
+  },
+  "mutations": {
+    "proposed": 1184,
+    "exactCollision": 10,
+    "ambiguousSameMake": 9,
+    "emitted": 1165
+  },
+  "mutationExclusions": [
+    {
+      "make": "Audi",
+      "sourceModel": "Quattro",
+      "variant": "quattro",
+      "reason": "exact-source-spelling",
+      "alternatives": [
+        "Audi/Quattro"
+      ]
+    },
+    {
+      "make": "Cadillac",
+      "sourceModel": "Fleetwood",
+      "variant": "fleetwood",
+      "reason": "exact-source-spelling",
+      "alternatives": [
+        "Cadillac/Fleetwood"
+      ]
+    },
+    {
+      "make": "Chevrolet",
+      "sourceModel": "Classic",
+      "variant": "classic",
+      "reason": "exact-source-spelling",
+      "alternatives": [
+        "Chevrolet/Classic"
+      ]
+    },
+    {
+      "make": "Chevrolet",
+      "sourceModel": "TrailBlazer",
+      "variant": "tailblazer",
+      "reason": "ambiguous-same-make-correction",
+      "alternatives": [
+        "TrailBlazer",
+        "Trailblazer"
+      ]
+    },
+    {
+      "make": "Chevrolet",
+      "sourceModel": "TrailBlazer",
+      "variant": "trrailblazer",
+      "reason": "ambiguous-same-make-correction",
+      "alternatives": [
+        "TrailBlazer",
+        "Trailblazer"
+      ]
+    },
+    {
+      "make": "Chevrolet",
+      "sourceModel": "TrailBlazer",
+      "variant": "txailblazer",
+      "reason": "ambiguous-same-make-correction",
+      "alternatives": [
+        "TrailBlazer",
+        "Trailblazer"
+      ]
+    },
+    {
+      "make": "Chevrolet",
+      "sourceModel": "TrailBlazer",
+      "variant": "tarilblazer",
+      "reason": "ambiguous-same-make-correction",
+      "alternatives": [
+        "TrailBlazer",
+        "Trailblazer"
+      ]
+    },
+    {
+      "make": "Chevrolet",
+      "sourceModel": "Trailblazer",
+      "variant": "tailblazer",
+      "reason": "ambiguous-same-make-correction",
+      "alternatives": [
+        "TrailBlazer",
+        "Trailblazer"
+      ]
+    },
+    {
+      "make": "Chevrolet",
+      "sourceModel": "Trailblazer",
+      "variant": "trrailblazer",
+      "reason": "ambiguous-same-make-correction",
+      "alternatives": [
+        "TrailBlazer",
+        "Trailblazer"
+      ]
+    },
+    {
+      "make": "Chevrolet",
+      "sourceModel": "Trailblazer",
+      "variant": "txailblazer",
+      "reason": "ambiguous-same-make-correction",
+      "alternatives": [
+        "TrailBlazer",
+        "Trailblazer"
+      ]
+    },
+    {
+      "make": "Chevrolet",
+      "sourceModel": "Trailblazer",
+      "variant": "tarilblazer",
+      "reason": "ambiguous-same-make-correction",
+      "alternatives": [
+        "TrailBlazer",
+        "Trailblazer"
+      ]
+    },
+    {
+      "make": "Chrysler",
+      "sourceModel": "Cirrus",
+      "variant": "cirrus",
+      "reason": "exact-source-spelling",
+      "alternatives": [
+        "Chrysler/Cirrus"
+      ]
+    },
+    {
+      "make": "Eagle",
+      "sourceModel": "Summit",
+      "variant": "summit",
+      "reason": "exact-source-spelling",
+      "alternatives": [
+        "Eagle/Summit"
+      ]
+    },
+    {
+      "make": "Honda",
+      "sourceModel": "Odyssey",
+      "variant": "odyssey",
+      "reason": "exact-source-spelling",
+      "alternatives": [
+        "Honda/Odyssey"
+      ]
+    },
+    {
+      "make": "Lincoln",
+      "sourceModel": "Blackwood",
+      "variant": "blackwood",
+      "reason": "exact-source-spelling",
+      "alternatives": [
+        "Lincoln/Blackwood"
+      ]
+    },
+    {
+      "make": "Plymouth",
+      "sourceModel": "Breeze",
+      "variant": "breeze",
+      "reason": "exact-source-spelling",
+      "alternatives": [
+        "Plymouth/Breeze"
+      ]
+    },
+    {
+      "make": "Porsche",
+      "sourceModel": "Taycan",
+      "variant": "tacan",
+      "reason": "ambiguous-same-make-correction",
+      "alternatives": [
+        "Macan",
+        "Taycan"
+      ]
+    },
+    {
+      "make": "Volkswagen",
+      "sourceModel": "Passat",
+      "variant": "passat",
+      "reason": "exact-source-spelling",
+      "alternatives": [
+        "Volkswagen/Passat"
+      ]
+    },
+    {
+      "make": "Volkswagen",
+      "sourceModel": "Rabbit",
+      "variant": "rabbit",
+      "reason": "exact-source-spelling",
+      "alternatives": [
+        "Volkswagen/Rabbit"
+      ]
+    }
+  ],
+  "sha256": "eef757566227605eb5b8e9e7ed2b45e2007a61056b9f1c7c4fc0e9a1eb81697e",
+  "provenance": "Deterministic source-derived and composed synthetic evaluation. No historical lead accuracy claim."
+}

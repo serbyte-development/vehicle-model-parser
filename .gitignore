@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.tgz
+artifacts/
+.cache/
+coverage/
+memory.md
+tests/fixtures/generated*.jsonl

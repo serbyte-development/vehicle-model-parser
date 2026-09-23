@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "pages": {
+    "pages/architecture.md": {
+      "fingerprint": "sha256:c86836252df2c93e93e881a9cb98ab4d3c740ed1a9c7fbf2d97d39027661a2c2"
+    },
+    "pages/data/catalog-generation.md": {
+      "fingerprint": "sha256:5eb6ab3149c746fd86331c0d793520d222cd5813cc25914caeb984bf0b75abad"
+    },
+    "pages/data/policy-provenance.md": {
+      "fingerprint": "sha256:c9626f4ea7fd4a583dc916ba02977393f8f0b574f61d01752e9ecc798dbd453c"
+    },
+    "pages/release/maintenance-workflows.md": {
+      "fingerprint": "sha256:8c9aae14586ec22a1e55d1437c996cc9ae083ab7213f6bc419c808645645b475"
+    },
+    "pages/release/package-release.md": {
+      "fingerprint": "sha256:456a74d45ecf904855a7d5153ed660ae1e86485bf3619054d21ce1aa51107001"
+    },
+    "pages/runtime/context-ambiguity.md": {
+      "fingerprint": "sha256:8cb7488bf4f550f9a8e79660b71e7c63f4893a1909d5cc59a76a1c2232ed903e"
+    },
+    "pages/runtime/matching-pipeline.md": {
+      "fingerprint": "sha256:5c6efe091f422037b2c99d19fa72640c7998c42ddd1aeff588c22af5a7c4e098"
+    },
+    "pages/runtime/public-api.md": {
+      "fingerprint": "sha256:d9f63c247e552a84c1dd039f0dd0c5ccdf568b137e393b9283e232453b932417"
+    },
+    "pages/validation/corpus.md": {
+      "fingerprint": "sha256:29743dddfcc0b4e3f9e7b151e343907d229c970c9a4bf9798b542f49b7b1c405"
+    },
+    "pages/validation/performance.md": {
+      "fingerprint": "sha256:ad8e7ed4564855621b6edfb4cb3680f932747b5cdefa5382c94e4012b1a6920c"
+    },
+    "pages/validation/review-and-external.md": {
+      "fingerprint": "sha256:6cd358728285f6bca2b1160e865be1d753062171a0c958c15c070cbc5179de81"
+    }
+  }
+}

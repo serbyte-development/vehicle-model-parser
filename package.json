@@ -1,0 +1,94 @@
+{
+  "name": "vehicle-model-parser",
+  "version": "0.1.0",
+  "description": "Extract vehicle models and possible makes from noisy text with an offline, zero-runtime-dependency TypeScript API.",
+  "license": "MIT",
+  "author": "Serbyte Development",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serbyte-Development/vehicle-model-parser.git"
+  },
+  "homepage": "https://github.com/Serbyte-Development/vehicle-model-parser#readme",
+  "bugs": {
+    "url": "https://github.com/Serbyte-Development/vehicle-model-parser/issues"
+  },
+  "keywords": [
+    "vehicle-model-parser",
+    "vehicle-parser",
+    "vehicle",
+    "car",
+    "automotive",
+    "make-model",
+    "make",
+    "model",
+    "entity-extraction",
+    "entity-recognition",
+    "text-parsing",
+    "fuzzy-matching",
+    "lead-enrichment",
+    "typescript",
+    "offline",
+    "zero-dependency"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "data/source/LICENSE",
+    "data/source/manifest.json",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "npm run data:build && tsup",
+    "data:build": "tsx scripts/build-data.ts",
+    "data:refresh": "tsx scripts/refresh-data.ts",
+    "lint": "biome lint .",
+    "format:check": "biome format .",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "test:runtime": "tsx --test tests/runtime.test.ts tests/data.test.ts",
+    "bench": "tsx scripts/benchmark.ts",
+    "corpus:generate": "tsx scripts/generate-corpus.ts",
+    "corpus:check": "tsx tests/corpus-evaluate.ts",
+    "evaluate:public": "tsx scripts/evaluate-public.ts",
+    "package:check": "npm run build && tsx scripts/check-package.ts",
+    "check": "npm run lint && npm run format:check && npm run build && npm run typecheck && npm test && npm run corpus:generate && npm run corpus:check && tsx scripts/check-package.ts",
+    "prepack": "npm run build"
+  },
+  "overrides": {
+    "esbuild": "0.28.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.13",
+    "@types/node": "^22.0.0",
+    "csv-parse": "7.0.2",
+    "fast-check": "^4.3.0",
+    "levenshtein-lte1": "1.0.1",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "commit": "79018e2dbcc03899bf3434d959b445644fb49b76",
+  "localSourceChecksumsVerified": 37,
+  "rows": 11543,
+  "makes": 66,
+  "models": 1410,
+  "pairs": 1459,
+  "rawCsvBytes": 456577
+}

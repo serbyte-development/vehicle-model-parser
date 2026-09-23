@@ -1,0 +1,19 @@
+{
+  "tarball": "serbyte-vehicle-parser-0.1.0.tgz",
+  "tarballSha256": "3b0b01e896614ae66c33ac68cc92a38d6d4e66ae14483aa18badaa571e599de4",
+  "bytes": 90281,
+  "files": 14,
+  "node": "v26.7.0",
+  "platform": "darwin/arm64",
+  "install": "Offline, scripts disabled, zero production dependencies",
+  "checks": [
+    "file allowlist",
+    "required licenses",
+    "no local absolute paths",
+    "ESM",
+    "CommonJS",
+    "NodeNext .mts",
+    "NodeNext .cts",
+    "review regressions"
+  ]
+}

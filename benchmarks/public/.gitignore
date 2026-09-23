@@ -1,0 +1,4 @@
+# Upstream includes contact details. Preserve raw bytes locally; exclude redistribution.
+vehicle_ner.original.jsonl
+*.tap
+.work/

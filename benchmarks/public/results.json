@@ -1,0 +1,644 @@
+{
+  "corpus": "AutoSpecNER",
+  "commit": "fd168bc5baa096beceaf2ec36fbb6b5bc31821d1",
+  "dataSha256": "b2dbcf7b0f87cfb87f945fd2830ce95dbe49039065bf1649a3f408897fe5434c",
+  "implementationHashes": {
+    "src/index.ts": "1f2dc90796935e7f463ee62ffa1228ace2464e268b6b280f231b9f19393f1f72",
+    "src/rules.ts": "ef4995d3b78d659b9dff113407358b4d023574de5ef2bd63eb50d6722f4b3fb0",
+    "src/families.ts": "b3e73e12f1a51d70235a7b6c19c73f56df02f4153f9b4393ae0d0c073afc5b4e",
+    "src/catalog.json": "a5d4adc91f991d1018be10d982dae12959401e546b00ce43ea6fbe96632b01aa"
+  },
+  "node": "v24.19.0",
+  "fuzzy": true,
+  "scope": "Diagnostic span agreement with accepted UK advertisements; advertised-vehicle labels differ from general mention extraction.",
+  "canonicalCandidateScoring": false,
+  "authorshipSplitAvailable": false,
+  "source": {
+    "records": 659,
+    "accepted": 645,
+    "uniqueAcceptedTexts": 629,
+    "duplicateAcceptedRows": 16,
+    "duplicateTextGroupsWithDifferentAnnotations": 10,
+    "nonBmpAcceptedDocuments": 5
+  },
+  "allAcceptedRows": {
+    "documents": 645,
+    "predictedSpans": 585,
+    "goldSpans": 1110,
+    "exact": {
+      "truePositive": 441,
+      "falsePositive": 144,
+      "falseNegative": 669,
+      "precision": 0.7538461538461538,
+      "recall": 0.3972972972972973,
+      "f1": 0.5203539823008849
+    },
+    "overlap": {
+      "truePositive": 464,
+      "falsePositive": 121,
+      "falseNegative": 646,
+      "precision": 0.7931623931623931,
+      "recall": 0.418018018018018,
+      "f1": 0.5474926253687316
+    },
+    "goldRecallByCatalogSurface": {
+      "exactFoldedSourceSurface": {
+        "gold": 556,
+        "exactRecall": 0.7751798561151079,
+        "overlapRecall": 0.7877697841726619
+      },
+      "noExactFoldedSourceSurface": {
+        "gold": 554,
+        "exactRecall": 0.018050541516245487,
+        "overlapRecall": 0.04693140794223827
+      }
+    }
+  },
+  "firstAcceptedRowPerExactText": {
+    "documents": 629,
+    "predictedSpans": 564,
+    "goldSpans": 1090,
+    "exact": {
+      "truePositive": 424,
+      "falsePositive": 140,
+      "falseNegative": 666,
+      "precision": 0.75177304964539,
+      "recall": 0.3889908256880734,
+      "f1": 0.5126964933494559
+    },
+    "overlap": {
+      "truePositive": 447,
+      "falsePositive": 117,
+      "falseNegative": 643,
+      "precision": 0.7925531914893617,
+      "recall": 0.41009174311926605,
+      "f1": 0.5405078597339782
+    },
+    "goldRecallByCatalogSurface": {
+      "exactFoldedSourceSurface": {
+        "gold": 538,
+        "exactRecall": 0.7695167286245354,
+        "overlapRecall": 0.7825278810408922
+      },
+      "noExactFoldedSourceSurface": {
+        "gold": 552,
+        "exactRecall": 0.018115942028985508,
+        "overlapRecall": 0.04710144927536232
+      }
+    }
+  },
+  "unmappedGoldSurfaces": [
+    {
+      "surface": "Polo",
+      "count": 33
+    },
+    {
+      "surface": "Puma",
+      "count": 30
+    },
+    {
+      "surface": "Corsa",
+      "count": 27
+    },
+    {
+      "surface": "Hatch",
+      "count": 22
+    },
+    {
+      "surface": "C3",
+      "count": 17
+    },
+    {
+      "surface": "ZS",
+      "count": 15
+    },
+    {
+      "surface": "Clio",
+      "count": 14
+    },
+    {
+      "surface": "C1",
+      "count": 11
+    },
+    {
+      "surface": "Kamiq",
+      "count": 11
+    },
+    {
+      "surface": "Qashqai",
+      "count": 11
+    },
+    {
+      "surface": "Jazz",
+      "count": 10
+    },
+    {
+      "surface": "Kuga",
+      "count": 10
+    },
+    {
+      "surface": "Micra",
+      "count": 9
+    },
+    {
+      "surface": "208",
+      "count": 8
+    },
+    {
+      "surface": "Aygo X",
+      "count": 8
+    },
+    {
+      "surface": "i10",
+      "count": 8
+    },
+    {
+      "surface": "Transit Custom",
+      "count": 8
+    },
+    {
+      "surface": "2008",
+      "count": 7
+    },
+    {
+      "surface": "Citigo",
+      "count": 7
+    },
+    {
+      "surface": "Duster",
+      "count": 7
+    },
+    {
+      "surface": "E",
+      "count": 7
+    },
+    {
+      "surface": "Leon",
+      "count": 7
+    },
+    {
+      "surface": "Stonic",
+      "count": 7
+    },
+    {
+      "surface": "Arona",
+      "count": 6
+    },
+    {
+      "surface": "AYGO",
+      "count": 6
+    },
+    {
+      "surface": "Captur",
+      "count": 6
+    },
+    {
+      "surface": "Mokka",
+      "count": 6
+    },
+    {
+      "surface": "MX-5",
+      "count": 6
+    },
+    {
+      "surface": "Yaris Cross",
+      "count": 6
+    },
+    {
+      "surface": "Zoe",
+      "count": 6
+    },
+    {
+      "surface": "A1",
+      "count": 5
+    },
+    {
+      "surface": "Ceed",
+      "count": 5
+    },
+    {
+      "surface": "T-Cross",
+      "count": 5
+    },
+    {
+      "surface": "Trafic",
+      "count": 5
+    },
+    {
+      "surface": "Twingo",
+      "count": 5
+    },
+    {
+      "surface": "Vivaro",
+      "count": 5
+    },
+    {
+      "surface": "3008",
+      "count": 4
+    },
+    {
+      "surface": "7",
+      "count": 4
+    },
+    {
+      "surface": "Dispatch",
+      "count": 4
+    },
+    {
+      "surface": "Formentor",
+      "count": 4
+    },
+    {
+      "surface": "i30",
+      "count": 4
+    },
+    {
+      "surface": "Ibiza",
+      "count": 4
+    },
+    {
+      "surface": "Ignis",
+      "count": 4
+    },
+    {
+      "surface": "Karoq",
+      "count": 4
+    },
+    {
+      "surface": "Mini",
+      "count": 4
+    },
+    {
+      "surface": "Picanto",
+      "count": 4
+    },
+    {
+      "surface": "Sandero Stepway",
+      "count": 4
+    },
+    {
+      "surface": "Scala",
+      "count": 4
+    },
+    {
+      "surface": "XCeed",
+      "count": 4
+    },
+    {
+      "surface": "A4 Avant",
+      "count": 3
+    },
+    {
+      "surface": "Arkana",
+      "count": 3
+    },
+    {
+      "surface": "C4",
+      "count": 3
+    },
+    {
+      "surface": "CUPRA Ateca",
+      "count": 3
+    },
+    {
+      "surface": "DS 3",
+      "count": 3
+    },
+    {
+      "surface": "EQC400",
+      "count": 3
+    },
+    {
+      "surface": "Grand Modus",
+      "count": 3
+    },
+    {
+      "surface": "ID.3",
+      "count": 3
+    },
+    {
+      "surface": "Master",
+      "count": 3
+    },
+    {
+      "surface": "Primastar",
+      "count": 3
+    },
+    {
+      "surface": "S-Max",
+      "count": 3
+    },
+    {
+      "surface": "Sprinter",
+      "count": 3
+    },
+    {
+      "surface": "Transit",
+      "count": 3
+    },
+    {
+      "surface": "X-Trail",
+      "count": 3
+    },
+    {
+      "surface": "308",
+      "count": 2
+    },
+    {
+      "surface": "320i",
+      "count": 2
+    },
+    {
+      "surface": "Alto",
+      "count": 2
+    },
+    {
+      "surface": "Aygo",
+      "count": 2
+    },
+    {
+      "surface": "C-Max",
+      "count": 2
+    },
+    {
+      "surface": "C3 Aircross",
+      "count": 2
+    },
+    {
+      "surface": "CX-60",
+      "count": 2
+    },
+    {
+      "surface": "Eletre",
+      "count": 2
+    },
+    {
+      "surface": "Enyaq",
+      "count": 2
+    },
+    {
+      "surface": "Getz",
+      "count": 2
+    },
+    {
+      "surface": "Hatch Cooper",
+      "count": 2
+    },
+    {
+      "surface": "Kodiaq",
+      "count": 2
+    },
+    {
+      "surface": "MG3",
+      "count": 2
+    },
+    {
+      "surface": "Partner",
+      "count": 2
+    },
+    {
+      "surface": "Q2",
+      "count": 2
+    },
+    {
+      "surface": "Ranger",
+      "count": 2
+    },
+    {
+      "surface": "RS6 Avant",
+      "count": 2
+    },
+    {
+      "surface": "SLK250",
+      "count": 2
+    },
+    {
+      "surface": "UX300e",
+      "count": 2
+    },
+    {
+      "surface": "118d",
+      "count": 1
+    },
+    {
+      "surface": "118D",
+      "count": 1
+    },
+    {
+      "surface": "218i",
+      "count": 1
+    },
+    {
+      "surface": "991.2",
+      "count": 1
+    },
+    {
+      "surface": "a180",
+      "count": 1
+    },
+    {
+      "surface": "A180",
+      "count": 1
+    },
+    {
+      "surface": "Acenta",
+      "count": 1
+    },
+    {
+      "surface": "auris",
+      "count": 1
+    },
+    {
+      "surface": "B-max",
+      "count": 1
+    },
+    {
+      "surface": "B-Max",
+      "count": 1
+    },
+    {
+      "surface": "B-MAX",
+      "count": 1
+    },
+    {
+      "surface": "C220",
+      "count": 1
+    },
+    {
+      "surface": "Captur's",
+      "count": 1
+    },
+    {
+      "surface": "CLK",
+      "count": 1
+    },
+    {
+      "surface": "CLK350",
+      "count": 1
+    },
+    {
+      "surface": "Cooper Classic",
+      "count": 1
+    },
+    {
+      "surface": "corsa",
+      "count": 1
+    },
+    {
+      "surface": "Crossland",
+      "count": 1
+    },
+    {
+      "surface": "E-208",
+      "count": 1
+    },
+    {
+      "surface": "E-niro",
+      "count": 1
+    },
+    {
+      "surface": "e:Ny1",
+      "count": 1
+    },
+    {
+      "surface": "Eqc",
+      "count": 1
+    },
+    {
+      "surface": "EQC",
+      "count": 1
+    },
+    {
+      "surface": "FL2",
+      "count": 1
+    },
+    {
+      "surface": "Ford",
+      "count": 1
+    },
+    {
+      "surface": "Freelander 2",
+      "count": 1
+    },
+    {
+      "surface": "Galaxy",
+      "count": 1
+    },
+    {
+      "surface": "GL350",
+      "count": 1
+    },
+    {
+      "surface": "GLB's",
+      "count": 1
+    },
+    {
+      "surface": "GLB200",
+      "count": 1
+    },
+    {
+      "surface": "Gran Coupe",
+      "count": 1
+    },
+    {
+      "surface": "Grandland",
+      "count": 1
+    },
+    {
+      "surface": "Hyundai",
+      "count": 1
+    },
+    {
+      "surface": "I10",
+      "count": 1
+    },
+    {
+      "surface": "ibiza",
+      "count": 1
+    },
+    {
+      "surface": "kodiaqs",
+      "count": 1
+    },
+    {
+      "surface": "Match",
+      "count": 1
+    },
+    {
+      "surface": "Max",
+      "count": 1
+    },
+    {
+      "surface": "MG",
+      "count": 1
+    },
+    {
+      "surface": "MX5",
+      "count": 1
+    },
+    {
+      "surface": "octavia",
+      "count": 1
+    },
+    {
+      "surface": "Omoda 5",
+      "count": 1
+    },
+    {
+      "surface": "OMODA 5",
+      "count": 1
+    },
+    {
+      "surface": "Panda",
+      "count": 1
+    },
+    {
+      "surface": "PUMA",
+      "count": 1
+    },
+    {
+      "surface": "Q4",
+      "count": 1
+    },
+    {
+      "surface": "Ranger's",
+      "count": 1
+    },
+    {
+      "surface": "Scout",
+      "count": 1
+    },
+    {
+      "surface": "SKL",
+      "count": 1
+    },
+    {
+      "surface": "SPORT",
+      "count": 1
+    },
+    {
+      "surface": "Stinger's",
+      "count": 1
+    },
+    {
+      "surface": "Style",
+      "count": 1
+    },
+    {
+      "surface": "Swift's",
+      "count": 1
+    },
+    {
+      "surface": "The",
+      "count": 1
+    },
+    {
+      "surface": "This",
+      "count": 1
+    },
+    {
+      "surface": "this C3",
+      "count": 1
+    }
+  ]
+}

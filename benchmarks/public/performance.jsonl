@@ -1,0 +1,13 @@
+{"node":"v24.19.0","platform":"darwin","arch":"arm64","cpu":"Apple M2","seed":730219,"note":"Warm timings; generated input construction is excluded. Cold import uses built ESM in fresh processes."}
+{"name":"cold-import","repeats":5,"milliseconds":[12.587,12.51,12.563,12.457,12.736]}
+{"name":"typical-positive","bytes":91,"repeats":1000,"mentions":2,"medianMs":0.025,"p95Ms":0.047}
+{"name":"typical-negative","bytes":87,"repeats":1000,"mentions":0,"medianMs":0.024,"p95Ms":0.041}
+{"name":"repeated-negative","bytes":10000,"repeats":10,"mentions":0,"medianMs":0.801,"p95Ms":0.958}
+{"name":"varied-contextual-vocabulary","bytes":10000,"repeats":10,"mentions":0,"medianMs":2.537,"p95Ms":2.888}
+{"name":"repeated-negative","bytes":100000,"repeats":10,"mentions":0,"medianMs":8.153,"p95Ms":10.264}
+{"name":"varied-contextual-vocabulary","bytes":100000,"repeats":10,"mentions":0,"medianMs":25.283,"p95Ms":27.773}
+{"name":"repeated-negative","bytes":1000000,"repeats":3,"mentions":0,"medianMs":80.738,"p95Ms":97.65}
+{"name":"varied-contextual-vocabulary","bytes":1000000,"repeats":3,"mentions":0,"medianMs":262.377,"p95Ms":272.266}
+{"name":"single-arbitrary-token","bytes":1000000,"repeats":3,"mentions":0,"medianMs":4.154,"p95Ms":4.21}
+{"name":"dense-positive","bytes":999999,"repeats":3,"mentions":76923,"medianMs":382.396,"p95Ms":476.792}
+{"memory":{"rss":409272320,"heapTotal":259375104,"heapUsed":145219048,"external":3993857,"arrayBuffers":1565675}}

@@ -1,0 +1,22 @@
+/** Reviewed family labels. A prefix must be supported by at least one raw source row. */
+export const familyDefinitions = [
+  { model: 'F-150', prefixes: ['F150 '], makes: ['Ford'], aliases: [] },
+  { model: 'F-250', prefixes: ['F250 '], makes: ['Ford'], aliases: [] },
+  { model: 'F-350', prefixes: ['F350 '], makes: ['Ford'], aliases: [] },
+  { model: 'F-450', prefixes: ['F450 '], makes: ['Ford'], aliases: [] },
+  { model: 'Silverado', prefixes: ['Silverado '], makes: ['Chevrolet'], aliases: [] },
+  { model: 'Sierra', prefixes: ['Sierra '], makes: ['GMC'], aliases: [] },
+  { model: 'Tacoma', prefixes: ['Tacoma '], makes: ['Toyota'], aliases: [] },
+  { model: 'Tundra', prefixes: ['Tundra '], makes: ['Toyota'], aliases: [] },
+  { model: 'Ranger', prefixes: ['Ranger '], makes: ['Ford'], aliases: [] },
+  { model: 'Colorado', prefixes: ['Colorado '], makes: ['Chevrolet'], aliases: [] },
+  { model: 'Canyon', prefixes: ['Canyon '], makes: ['GMC'], aliases: [] },
+  { model: 'Frontier', prefixes: ['Frontier '], makes: ['Nissan'], aliases: [] },
+  { model: 'Titan', prefixes: ['Titan ', 'TITAN '], makes: ['Nissan'], aliases: [] },
+  { model: 'Dakota', prefixes: ['Dakota '], makes: ['Dodge', 'Ram'], aliases: [] },
+  { model: 'S10', prefixes: ['S10 '], makes: ['Chevrolet'], aliases: [] },
+  { model: 'Sonoma', prefixes: ['Sonoma '], makes: ['GMC'], aliases: [] },
+  { model: 'Sprinter', prefixes: ['Sprinter '], makes: ['Dodge', 'Freightliner', 'Mercedes-Benz'], aliases: [] },
+  { model: 'Transit', prefixes: ['Transit '], makes: ['Ford'], aliases: [] },
+  { model: 'Defender', prefixes: ['Defender '], makes: ['Land Rover'], aliases: [] },
+] as const;

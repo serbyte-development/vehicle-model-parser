@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/abhionlyone/us-car-models-data",
+  "author": "abhionlyone and contributors",
+  "commit": "79018e2dbcc03899bf3434d959b445644fb49b76",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "transformations": "Original files are byte-for-byte copies. The generated catalog deduplicates model/make pairs across years and discards year/body_styles.",
+  "expected": {
+    "files": 35,
+    "rows": 11543,
+    "makes": 66,
+    "models": 1410,
+    "pairs": 1459,
+    "rows2025": 28,
+    "rows2026": 3
+  },
+  "files": [
+    {
+      "path": "1992.csv",
+      "sha256": "95e51262a5f957730692477a83a66b2ab7abdea09c452a41c2404d90e372505f",
+      "bytes": 11648
+    },
+    {
+      "path": "1993.csv",
+      "sha256": "6f1623bb50d4babc2ef87d14541137082c4b128b37bc5051a3949678a4c0d4f4",
+      "bytes": 12003
+    },
+    {
+      "path": "1994.csv",
+      "sha256": "1e618f1712cfb4f5ab872769740578f5067dc59278c619f23702255b31d84d61",
+      "bytes": 10701
+    },
+    {
+      "path": "1995.csv",
+      "sha256": "8ecd06421c9169865894d161bae905070b5826bc9f37afe66a0906704a98cda5",
+      "bytes": 11007
+    },
+    {
+      "path": "1996.csv",
+      "sha256": "f4dd445778d1171b92a940b8892463cc396fa829c2191fb53ac007ff41a80517",
+      "bytes": 10813
+    },
+    {
+      "path": "1997.csv",
+      "sha256": "8e706bfb470ebe5863df3927ff46638bfc9584f12105cebd2a2c6dba32498d97",
+      "bytes": 10710
+    },
+    {
+      "path": "1998.csv",
+      "sha256": "5af73187440b0b588e315024bd910f44658b310ac6cbc83a3eaa09bf18f065e0",
+      "bytes": 10525
+    },
+    {
+      "path": "1999.csv",
+      "sha256": "b808bbbb778888b2592cebb3da401c5f296d40ae234b184732ba29699f7eaea8",
+      "bytes": 11861
+    },
+    {
+      "path": "2000.csv",
+      "sha256": "f1f80ace6b5f8cca5be97aa94efd2c9a718da1837e2196b407c619f8a4c7114f",
+      "bytes": 12211
+    },
+    {
+      "path": "2001.csv",
+      "sha256": "71e79c987b356abcd91f6819ac226504bd8216e3ea8dccd9137a927f1f8d4300",
+      "bytes": 12425
+    },
+    {
+      "path": "2002.csv",
+      "sha256": "b8c366d6b2f928af84fe777b71c170d1ae1999ecb9e77031eaa5a0b4285cce75",
+      "bytes": 12735
+    },
+    {
+      "path": "2003.csv",
+      "sha256": "144ce0b96842228af4338802b2896ad967cfb91a0f1a45eec5a90d93ab7a5b94",
+      "bytes": 12603
+    },
+    {
+      "path": "2004.csv",
+      "sha256": "a1042e510f80aaf7e68f6aae6d2b9765ecef4b46760d99d562c212a4da0be1b5",
+      "bytes": 13572
+    },
+    {
+      "path": "2005.csv",
+      "sha256": "e7c81a6d0c25bdc7a108227ea97942460be946980d23705c74574723ccfb2a56",
+      "bytes": 13919
+    },
+    {
+      "path": "2006.csv",
+      "sha256": "e94415fc9029a072298846715d2db39f4a86fbe5c3506fb3470962490932aa00",
+      "bytes": 14047
+    },
+    {
+      "path": "2007.csv",
+      "sha256": "4da593712281bd924d22dbb0105681d3c66129ac68cd07baa5f7afae382243bc",
+      "bytes": 15342
+    },
+    {
+      "path": "2008.csv",
+      "sha256": "785e0e2884cff3bdbad14033f72488c4a7506eac437524280f8d29c918843bce",
+      "bytes": 14646
+    },
+    {
+      "path": "2009.csv",
+      "sha256": "4e234064eb886e6af7b6bb08684fa88abc45ce290297522162b949624d97b08d",
+      "bytes": 14325
+    },
+    {
+      "path": "2010.csv",
+      "sha256": "95ad34cd85d3760f36cef3ce8f78de5f4a3749a8460bb301cd65650fa11a8eda",
+      "bytes": 13685
+    },
+    {
+      "path": "2011.csv",
+      "sha256": "81a95de8cb6056d61de7c291cb17ab16fe2f6c582c4d566a8f961d597d8dd741",
+      "bytes": 13739
+    },
+    {
+      "path": "2012.csv",
+      "sha256": "aac6833dae8865ac0d7c2cd9ef60b66b44c43df4d30b9c1eaaceab120e088121",
+      "bytes": 13776
+    },
+    {
+      "path": "2013.csv",
+      "sha256": "46e79c96d4031c52b3e1a28ea153992cc6a024964b19ebb5e6eb19bd19be7e9b",
+      "bytes": 14047
+    },
+    {
+      "path": "2014.csv",
+      "sha256": "82a93f1970a35299be193c1ffefaa25f19fc6eb407959fec6c2979ea5f277a78",
+      "bytes": 14650
+    },
+    {
+      "path": "2015.csv",
+      "sha256": "c135182af67aad98e548c94625e7fca747141395485c21a0fef112ad40243e09",
+      "bytes": 15335
+    },
+    {
+      "path": "2016.csv",
+      "sha256": "a6f7365458f94bf35aa62dd019e8f79f99c2585678518008f5e8826d824738e5",
+      "bytes": 15777
+    },
+    {
+      "path": "2017.csv",
+      "sha256": "3ee7b4251d292f5c1f0472c2b4325fa1641c3bc87b51cd0150b10e618aaa54ff",
+      "bytes": 17852
+    },
+    {
+      "path": "2018.csv",
+      "sha256": "129c10730ee450d6e0695a0fb3cfb9cb4b532fa88e003430fb09f917d8962c5b",
+      "bytes": 17544
+    },
+    {
+      "path": "2019.csv",
+      "sha256": "a4062747e536eac77199e46f095151a776f97acacdc7113533cdd6854a67e74f",
+      "bytes": 18721
+    },
+    {
+      "path": "2020.csv",
+      "sha256": "1adfdc05dbbe6f7fb210f2753b387af4337bc61d194ca9925ef666821f87c6c5",
+      "bytes": 14587
+    },
+    {
+      "path": "2021.csv",
+      "sha256": "b58083eb5b1c823b9a7bceb8ee9893bb4db501a430579d7737d1fc9741e6009f",
+      "bytes": 18000
+    },
+    {
+      "path": "2022.csv",
+      "sha256": "fb88ecc5bbd5062f59eb2f02840baf8b6e0a57fec81d5e90f83e238c22cdc016",
+      "bytes": 18684
+    },
+    {
+      "path": "2023.csv",
+      "sha256": "18dcc9c790f75cfa2fb26405342c53db77050d62d1fd31e5d3fc32d0bfc4e4c2",
+      "bytes": 12727
+    },
+    {
+      "path": "2024.csv",
+      "sha256": "91f6ace23b17125d5d49d837f05ed77a616d5e8ecedda4af2866b024cb858c4a",
+      "bytes": 11582
+    },
+    {
+      "path": "2025.csv",
+      "sha256": "9f3314c88bc2c6a93b9abf047d53c2ef6dde792b0e03861a74f972f8f948890b",
+      "bytes": 685
+    },
+    {
+      "path": "2026.csv",
+      "sha256": "032a418aa4289dcade5f034f0ca4d4b7014e575ba208cf41f82f9df83e95feb9",
+      "bytes": 93
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0f6bd28bef191065d326869dc6d6019f50b994f1fb42f7be328494526a3751dd",
+      "bytes": 15674
+    },
+    {
+      "path": "README.md",
+      "sha256": "b3f4d70a74661ba916f34f130f9890ce829a0071abfdc983b187473f7fd286f5",
+      "bytes": 3347
+    }
+  ]
+}
